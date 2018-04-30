@@ -1,3 +1,33 @@
+/*General Styles */
 body{
-    background-color: yellow;
+    margin: 0;
+    padding: 0;
 }
+
+/* Header */
+
+nav{
+    position: fixed;
+    width: 100%;
+    background: rgba(0,0,0,.5);
+}
+.aw-main-banner{
+    display: block;
+    width: 100%;
+}
+
+/* LOGO */
+.aw-logo{
+    display: block;
+    width: 60px;
+    height: 60px;
+    color: #fff;
+    font-size: 26px;
+    line-height: 60px;
+    text-align: center;
+    text-decoration: none;
+    border: solid 2px #fff;
+    border-radius: 100%;
+}
+
+
