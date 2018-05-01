@@ -9,17 +9,36 @@ a{
     text-decoration: none;
 }
 
+.aw-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.aw-align-center{
+    align-items: center;
+}
+
 /* Header */
 
 header nav{
     position: fixed;
     width: 100%;
+    padding: 10px 0;
     background: rgba(0,0,0,.5);
 }
 
 header nav ul.aw-navigation {
     margin: 0;
     padding: 0;
+    display: flex;
+    list-style-type: none;
+    
+    
 
 }
 
@@ -27,6 +46,7 @@ header nav ul.aw-navigation li a{
     display: block;
     color: #fff;
     font-size: 16px;
+    padding: 0 16px;
     text-transform: uppercase;
 }
 .aw-main-banner{
@@ -36,14 +56,14 @@ header nav ul.aw-navigation li a{
 
 /* LOGO */
 .aw-logo{
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 60px;
     height: 60px;
     color: #fff;
     font-size: 26px;
-    line-height: 60px;
-    text-align: center;
-    
+    line-height: 60px;   
     border: solid 2px #fff;
     border-radius: 100%;
 }
