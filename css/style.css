@@ -2,14 +2,32 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+a{
+    text-decoration: none;
 }
 
 /* Header */
 
-nav{
+header nav{
     position: fixed;
     width: 100%;
     background: rgba(0,0,0,.5);
+}
+
+header nav ul.aw-navigation {
+    margin: 0;
+    padding: 0;
+
+}
+
+header nav ul.aw-navigation li a{
+    display: block;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
 }
 .aw-main-banner{
     display: block;
@@ -25,7 +43,7 @@ nav{
     font-size: 26px;
     line-height: 60px;
     text-align: center;
-    text-decoration: none;
+    
     border: solid 2px #fff;
     border-radius: 100%;
 }
